@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - ZIREX</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .admin-container { display: flex; height: 100vh; }
+        .sidebar { width: 250px; background: #000; padding: 20px; border-right: 1px solid #333; }
+        .sidebar a { display: block; padding: 15px; border-bottom: 1px solid #333; }
+        .sidebar a:hover { background: var(--primary-orange); color: white; }
+        .dashboard { flex: 1; padding: 40px; overflow-y: auto; }
+        .stat-box { background: #222; padding: 20px; border-radius: 8px; border-left: 5px solid var(--primary-orange); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid #333; }
+        th { background-color: var(--primary-orange); color: #000; }
+    </style>
+</head>
+<body>
+    <div class="admin-container">
+        <div class="sidebar">
+            <h2 style="color:var(--primary-orange); margin-bottom:20px;">ZIREX ADMIN</h2>
+            <a href="#">Dashboard</a>
+            <a href="#">Manage Products</a>
+            <a href="#">Enquiries</a>
+            <a href="index.html">Logout</a>
+        </div>
+        <div class="dashboard">
+            <h1>Dashboard Overview</h1>
+            <br>
+            <div class="grid-3">
+                <div class="stat-box"><h3>Visitors</h3><h1>1,245</h1></div>
+                <div class="stat-box"><h3>Enquiries</h3><h1>34</h1></div>
+                <div class="stat-box"><h3>Orders</h3><h1>12</h1></div>
+            </div>
+            <br>
+            <h2>Recent Enquiries</h2>
+            <table>
+                <tr><th>Name</th><th>Phone</th><th>Status</th></tr>
+                <tr><td>Dr. Smith</td><td>9876543210</td><td>Pending</td></tr>
+                <tr><td>New Smile Clinic</td><td>9123456789</td><td>Contacted</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

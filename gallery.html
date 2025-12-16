@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Gallery - ZIREX</title>
+    <meta name="description" content="View our gallery of Zirex Zirconia restorations.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="zirex.jpeg" alt="Zirex Logo"></a>
+        </div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section style="text-align: center; padding: 40px 5%; background: #0a0a0a;">
+        <h1 class="section-title" style="margin-bottom: 10px;">Our Masterpieces</h1>
+        <p style="color: #888;">Precision fit and natural aesthetics in every case.</p>
+    </section>
+
+    <section>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All Cases</button>
+            <button class="filter-btn" data-filter="anterior">Anterior</button>
+            <button class="filter-btn" data-filter="posterior">Posterior</button>
+            <button class="filter-btn" data-filter="full-arch">Full Arch</button>
+        </div>
+
+        <div class="gallery-grid">
+            
+            <div class="gallery-item show" data-category="anterior">
+                <img src="https://source.unsplash.com/600x600/?smile,teeth" alt="Anterior Crown">
+                <div class="gallery-overlay">
+                    <h4>Anterior Esthetics</h4>
+                    <p>High Translucency Zirconia</p>
+                </div>
+            </div>
+
+            <div class="gallery-item show" data-category="posterior">
+                <img src="https://source.unsplash.com/600x600/?dental,xray" alt="Posterior Crown">
+                <div class="gallery-overlay">
+                    <h4>Posterior Strength</h4>
+                    <p>Monolithic Zirconia Crown</p>
+                </div>
+            </div>
+
+            <div class="gallery-item show" data-category="full-arch">
+                <img src="https://source.unsplash.com/600x600/?denture,medical" alt="Full Arch Bridge">
+                <div class="gallery-overlay">
+                    <h4>Full Arch Restoration</h4>
+                    <p>Screw-retained Implant Bridge</p>
+                </div>
+            </div>
+
+            <div class="gallery-item show" data-category="anterior">
+                <img src="https://source.unsplash.com/600x600/?woman,laughing" alt="Smile Design">
+                <div class="gallery-overlay">
+                    <h4>Smile Makeover</h4>
+                    <p>6 Unit Veneer Case</p>
+                </div>
+            </div>
+
+            <div class="gallery-item show" data-category="posterior">
+                <img src="https://source.unsplash.com/600x600/?molar,tooth" alt="Molar Crown">
+                <div class="gallery-overlay">
+                    <h4>Single Molar</h4>
+                    <p>High Strength Layered Zirconia</p>
+                </div>
+            </div>
+
+            <div class="gallery-item show" data-category="full-arch">
+                <img src="https://source.unsplash.com/600x600/?dentist,tools" alt="Hybrid Denture">
+                <div class="gallery-overlay">
+                    <h4>All-on-4 Concept</h4>
+                    <p>Prettau Zirconia</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://source.unsplash.com/1600x600/?technology'); background-size: cover; background-attachment: fixed; text-align: center;">
+        <h2 style="color: #fff; margin-bottom: 20px;">Impressed by our quality?</h2>
+        <a href="contact.html" class="btn-main">Send a Case</a>
+    </section>
+
+    <div id="infoPopup" class="popup-overlay">
+        <div class="popup-box">
+            <span class="close-popup">&times;</span>
+            <h2 style="color:var(--primary-orange);">Get Product Catalog</h2>
+            <p>Download our latest shade guide and pricing.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Clinic / Lab Name" required>
+                <input type="tel" placeholder="Mobile Number" required>
+                <button type="submit" class="btn-main">Download Now</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="https://wa.me/919999999999" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="zirex.jpeg" alt="Zirex Logo" style="width: 120px; margin-bottom: 20px; border-radius: 5px;">
+                <p>Providing world-class Zirconia solutions for dental professionals.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="gallery.html">Smile Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <div class="contact-row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Dental Park, Chennai</span>
+                </div>
+                <div class="contact-row">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+91 98765 43210</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Zirex Dental Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

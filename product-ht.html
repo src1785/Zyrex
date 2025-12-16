@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zirex High Translucent - Product Details</title>
+    <meta name="description" content="Technical specifications for Zirex High Translucent Zirconia.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* --- PRODUCT SPECIFIC STYLES --- */
+        .product-hero {
+            padding: 80px 5%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            align-items: center;
+            background: #121212; /* Slightly lighter than pure black */
+        }
+        
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+
+        .product-image img {
+            width: 100%;
+            max-width: 500px; /* Limit max width so it doesn't look huge */
+            border-radius: 10px;
+            border: 2px solid var(--primary-orange);
+            box-shadow: 0 0 20px rgba(255, 102, 0, 0.2); /* Orange glow */
+            transition: transform 0.3s;
+        }
+
+        .product-image img:hover {
+            transform: scale(1.02);
+        }
+
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .product-info h4 {
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .product-info h1 {
+            font-size: 2.5rem;
+            color: var(--primary-orange);
+            margin-bottom: 15px;
+        }
+
+        .product-info .price {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #333;
+            padding-bottom: 15px;
+            display: inline-block;
+        }
+
+        .product-info p {
+            color: #ccc;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features-list {
+            list-style: none;
+            margin-bottom: 30px;
+        }
+
+        .features-list li {
+            margin-bottom: 12px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .features-list i {
+            color: var(--primary-orange);
+            margin-right: 12px;
+            font-size: 18px;
+        }
+
+        /* Tech Specs Table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            color: #ccc;
+            background: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .specs-table th, .specs-table td {
+            border-bottom: 1px solid #333;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .specs-table th {
+            background: #252525;
+            color: var(--primary-orange);
+            width: 40%;
+            font-weight: bold;
+        }
+        
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .btn-outline { 
+            padding: 12px 30px;
+            background: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+            font-weight: bold;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-outline:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        @media (max-width: 768px) {
+            .product-hero { padding: 40px 5%; }
+            .product-info h1 { font-size: 2rem; }
+            .action-buttons { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="zirex.jpeg" alt="Zirex Logo"></a>
+        </div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html" class="active" style="color:var(--primary-orange);">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-hero">
+        
+        <div class="product-image">
+            <img src="high.jpeg" alt="Zirex High Translucent Zirconia Disc">
+        </div>
+
+        <div class="product-info">
+            <h4>Zirconia Discs</h4>
+            <h1>Zirex High Translucent (HT)</h1>
+            <p class="price">Contact for Dealer Pricing</p>
+            
+            <p>
+                Our High Translucent (HT) Zirconia is engineered specifically for the anterior region where esthetics are paramount. It combines superior transparency with adequate strength (1200 MPa), making it the ideal choice for veneers, inlays, onlays, and single crowns that mimic natural tooth enamel.
+            </p>
+
+            <ul class="features-list">
+                <li><i class="fas fa-check-circle"></i> 45% Translucency for natural look</li>
+                <li><i class="fas fa-check-circle"></i> 1200 MPa Flexural Strength</li>
+                <li><i class="fas fa-check-circle"></i> Compatible with Amann Girrbach / 98mm Open Systems</li>
+                <li><i class="fas fa-check-circle"></i> Available in A1, A2, A3, B1 shades</li>
+                <li><i class="fas fa-check-circle"></i> Cold Isostatic Pressed (CIP) for uniform density</li>
+            </ul>
+
+            <div class="action-buttons">
+                <a href="https://wa.me/919840175004?text=Hi%20Zirex%2C%20I%20am%20interested%20in%20buying%20the%20HT%20Block." class="btn-main" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Buy Now
+                </a>
+                <a href="contact.html" class="btn-outline">Request Sample</a>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-color: #0a0a0a;">
+        <h2 class="section-title">Technical Specifications</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <table class="specs-table">
+                <tr>
+                    <th>Sintering Density</th>
+                    <td>> 6.0 g/cm³</td>
+                </tr>
+                <tr>
+                    <th>Flexural Strength</th>
+                    <td>1200 MPa</td>
+                </tr>
+                <tr>
+                    <th>Translucency</th>
+                    <td>45%</td>
+                </tr>
+                <tr>
+                    <th>Radioactivity</th>
+                    <td>< 0.1 Bq/g</td>
+                </tr>
+                <tr>
+                    <th>Chemical Solubility</th>
+                    <td>< 100 µg/cm²</td>
+                </tr>
+                <tr>
+                    <th>Sintering Temperature</th>
+                    <td>1530°C (Holding time 2 hours)</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <div id="infoPopup" class="popup-overlay">
+        <div class="popup-box">
+            <span class="close-popup">&times;</span>
+            <h2 style="color:var(--primary-orange);">Get Technical Datasheet</h2>
+            <p>Download the full sintering chart.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Lab Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <button type="submit" class="btn-main">Download </button>
+            </form>
+        </div>
+    </div>
+
+    <a href="https://wa.me/919840175004?text=Hello%20Zirex%2C%20I%20need%20support." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="zirex.jpeg" alt="Zirex Logo" style="width: 120px; margin-bottom: 20px; border-radius: 5px;">
+                <p>Providing world-class Zirconia solutions for dental professionals. Engineered for strength, designed for aesthetics.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="gallery.html">Smile Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <div class="contact-row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>123 Dental Park, Industrial Area,<br>Chennai, Tamil Nadu 600001</span>
+                </div>
+                <div class="contact-row">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+91 98765 43210</span>
+                </div>
+                <div class="contact-row">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@zirexdental.com</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get the latest price lists.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zirex Dental Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

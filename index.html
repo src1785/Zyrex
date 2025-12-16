@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIREX - An Xclusive Dental Lab </title>
+    <meta name="description" content="Zirex offers premium Zirconia crowns and dental solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="zirex.jpeg" alt="Zirex Logo"></a>
+        </div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html" style="color:var(--primary-orange);">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-slider">
+        
+        <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('slider.jpeg');">
+            <div class="slide-content">
+                <h1>Welcome to ZIREX</h1>
+                <p>The Future of Dental Zirconia</p>
+                <button class="btn-main" onclick="openPopup()">Get a Quote</button>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('slider2.jpeg');">
+            <div class="slide-content">
+                <h1>Premium Quality</h1>
+                <p>Unmatched Strength & Esthetics</p>
+                <a href="products.html" class="btn-main">View Products</a>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="why-choose">
+        <h2 class="section-title">Why Choose Zirex?</h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fas fa-gem fa-3x" style="color:var(--primary-orange);"></i>
+                <h3>Superior Durability</h3>
+                <p>Engineered for high resistance against fracture and wear.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-magic fa-3x" style="color:var(--primary-orange);"></i>
+                <h3>Natural Esthetics</h3>
+                <p>Translucency that mimics natural tooth enamel perfectly.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shipping-fast fa-3x" style="color:var(--primary-orange);"></i>
+                <h3>Fast Delivery</h3>
+                <p>Efficient processing ensuring timely delivery for your patients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="types">
+        <h2 class="section-title">Types of Zirconia Crown</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Zirex High Translucent</h3>
+                <p>Best for anterior restorations requiring high esthetics.</p>
+            </div>
+            <div class="card">
+                <h3>Zirex High Strength</h3>
+                <p>Designed for posterior bridges and implants.</p>
+            </div>
+            <div class="card">
+                <h3>Zirex Multi-Layer</h3>
+                <p>Seamless gradient shading for the most natural look.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" style="background:#0a0a0a;">
+        <h2 class="section-title">What Dentists Say About ZIREX </h2>
+        <div class="grid-3">
+            <div class="review-card card">
+                <p>"Zirex has changed my practice. The fit is perfect every time."</p>
+                <h4>- Dr.M. VIVEKANANDAN-BDS</h4>
+            </div>
+            <div class="review-card card">
+                <p>"The shade matching on the Multi-Layer crowns is phenomenal."</p>
+                <h4>- Dr. Sarah J.</h4>
+            </div>
+            <div class="review-card card">
+                <p>"Fast delivery and great customer support."</p>
+                <h4>- Dental Care Clinic</h4>
+            </div>
+        </div>
+    </section>
+
+    <div id="infoPopup" class="popup-overlay">
+        <div class="popup-box">
+            <span class="close-popup">&times;</span>
+            <h2 style="color:var(--primary-orange);">Stay Connected</h2>
+            <p>Enter your details for the latest Updates.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="text" placeholder="Clinic Name" required>
+                <input type="tel" placeholder="Mobile Number" required>
+                <button type="submit" class="btn-main">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="https://wa.me/919840175004" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <img src="zirex.jpeg" alt="Zirex Logo" style="width: 120px; margin-bottom: 20px; border-radius: 5px;">
+                <p>Providing world-class Zirconia solutions for dental professionals. Engineered for strength, designed for aesthetics.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                    <li><a href="gallery.html">Smile Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <div class="contact-row">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Manapparai ,<br>Dindigul, Tamil Nadu 600001</span>
+                </div>
+                <div class="contact-row">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+91 98401 75004</span>
+                </div>
+                <div class="contact-row">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@zirexdental.com</span>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get the latest price lists and offers.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zirex Dental Solutions. All Rights Reserved. | <a href="#" style="color:#666;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

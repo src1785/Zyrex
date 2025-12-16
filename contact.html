@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ZIREX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="zirex.jpeg" alt="Zirex Logo"></a></div>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 class="section-title">CONTACT US </h1>
+        <div class="grid-3">
+            <div style="grid-column: span 2;">
+                <div class="card">
+                    <form>
+                        <h3 style="color:white;">REACH US </h3>
+                        <div style="display:flex; gap:10px;">
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <textarea rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-main">Submit </button>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class="card" style="text-align:center;">
+                    <i class="fas fa-map-marker-alt fa-2x" style="color:var(--primary-orange); margin-bottom:15px;"></i>
+                    <h3>Our Location</h3>
+                    <p>Manapparai,<br>Dindigul, Tamil Nadu 600001</p>
+                    <br>
+                    <i class="fas fa-phone-alt fa-2x" style="color:var(--primary-orange); margin-bottom:15px;"></i>
+                    <h3>Call Us</h3>
+                    <p>+91 9840175004</p>
+                    <br>
+                    <i class="fas fa-envelope fa-2x" style="color:var(--primary-orange); margin-bottom:15px;"></i>
+                    <h3>Email</h3>
+                    <p>info@zirexdental.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/919840175004" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+    <footer>
+        <div class="footer-bottom"><p>&copy; 2026 Zirex. All Rights Reserved.</p></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
