@@ -226,3 +226,14 @@ footer {
 
 /* Animation */
 @keyframes fadeInUp { from { opacity:0; transform:translateY(40px); } to { opacity:1; transform:translateY(0); } }
+
+/* --- RESTORE GOLD HIGHLIGHTS --- */
+h1 span, h2 span, h3 span {
+    color: var(--gold);
+    font-style: italic; /* Optional: Adds that premium fashion look */
+}
+
+/* Force the specific slider title to have gold if needed */
+.slide-content h1 span {
+    color: var(--gold);
+    }
